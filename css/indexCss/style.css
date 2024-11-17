@@ -14,7 +14,7 @@ ol {
     list-style: none;
 }
 
-a span {
+a,span {
     display: inline-block;
     text-decoration: none;
 }
@@ -460,7 +460,7 @@ body {
 }
 
 .contactIng{
-    background-image: url('../images/woman-writing-on-paper.png');
+    background-image: url('/images/woman-writing-on-paper.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -542,7 +542,8 @@ body {
     color: #1B1C2B;
     font-size: 18px;
     font-weight: 600;
-    line-height: 32px;    
+    line-height: 32px; 
+    border: none;   
 }
 
 .touchBtn{
