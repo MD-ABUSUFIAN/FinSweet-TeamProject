@@ -103,6 +103,13 @@ body {
     padding-top: 96px ;
     background-color: #F4F6FC;
 }
+.icon{
+    transition: all linear .3s;
+}
+.icon:hover{
+    color: blue;
+    transform: scale(1.2);
+}
 .owrWorkContent__Info{
     font-size: 18px;
     font-weight: 400;
@@ -151,7 +158,12 @@ body {
     column-gap: 32px;
     margin: auto;
 }
-.link__First{
+.link__page{
+    transition: all linear .3s;
+}
+.link__page:hover{
+color: blue;
+cursor: pointer;
 
 }
 .imageCardWrapper{
