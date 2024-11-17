@@ -176,8 +176,9 @@ img {
     background: #F4F6FC;
     padding: 64px 76px 0 48px;
     border-radius: 12px;
-    transition: ease-in-out 0.4s;
+    transition: all linear 0.6s;
     margin-top: 64px;
+    cursor: pointer;
 }
 
 .pricingItem:hover{
