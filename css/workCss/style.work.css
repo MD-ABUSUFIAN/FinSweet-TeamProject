@@ -14,7 +14,7 @@ ol {
     list-style: none;
 }
 
-a span {
+a,span {
     display: inline-block;
     text-decoration: none;
 }
@@ -198,6 +198,11 @@ cursor: pointer;
 /* =================== build css ================ */
 #something{
     padding: 128px 0px;
+}
+
+.something__link{
+    text-decoration:none ;
+    color: black;
 }
 
 .something__Title{

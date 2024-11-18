@@ -14,7 +14,7 @@ ol {
     list-style: none;
 }
 
-a span {
+a,span {
     display: inline-block;
     text-decoration: none;
 }
@@ -91,6 +91,10 @@ body {
     margin-left: 85px;
     transition: ease 2s;
 }
+.customBtn__link{
+    color: white;
+    transition: all linear .4s;
+}
 
 .coustomBtn:hover {
     background-color: var(--Btn_yello_color);
@@ -99,10 +103,8 @@ body {
 /*============================Nav Css======================= */
 
 /* --=================== contact css =================-- */
-#contact{
-    /* padding: 128px; */
-    /* margin-bottom: 200px; */
-    padding: 400px 0px;
+.contactWrapperMain{
+    margin:128px 0px;
 }
 .top{
     display: flex;
@@ -299,3 +301,4 @@ body {
     cursor: pointer;
 }
 /*============================footer Part Css======================= */
+

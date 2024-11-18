@@ -89,7 +89,11 @@ body {
     color: var(--thirt_background_color);
     border-radius: 41px;
     margin-left: 85px;
-    transition: ease 2s;
+    transition: all linear .4s;
+}
+.customBtn__link{
+    color: white;
+    transition: all linear .4s;
 }
 
 .coustomBtn:hover {

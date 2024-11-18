@@ -14,7 +14,7 @@ ol {
     list-style: none;
 }
 
-a span {
+a,span {
     display: inline-block;
     text-decoration: none;
 }
@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5,h6,div,section,p,a,img,svg,button {
     --first_font_color: #282938;
     --Btn_yello_color: #FCD980;
     --poppins_font: "Poppins", sans-serif;
+  
 }
 
 body {
@@ -90,6 +91,10 @@ body {
     border-radius: 41px;
     margin-left: 85px;
     transition: ease 2s;
+}
+.customBtn__link{
+    color: white;
+    transition: all linear .4s;
 }
 
 .coustomBtn:hover {

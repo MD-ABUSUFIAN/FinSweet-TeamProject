@@ -14,7 +14,7 @@ ol {
   list-style: none;
 }
 
-a span {
+a,span {
   display: inline-block;
   text-decoration: none;
 }
@@ -231,7 +231,7 @@ body {
   padding-bottom: 40px;
 }
 /*============================About css End======================= */
-/*============================About css End======================= */
+/*============================contact css Start======================= */
 .contactList {
   display: flex;
   justify-content: space-between;
@@ -307,33 +307,32 @@ body {
   width: 100%;
   opacity: 1;
 }
-/*============================About css End======================= */
+/*============================contact css End======================= */
 
-/*============================footer Part Css======================= */
-
-#footer {
+#footer{
   padding: 100px 0 0 0;
   background-color: var(--first_background_color);
 }
 
-.imageleft__para {
-  color: #ffffff;
+.imageleft__para{
+  color: #FFFFFF;
   opacity: 0.7;
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   /* margin-top: 22px; */
+
 }
 
-.talkRight__title {
-  color: #fff;
+.talkRight__title{
+  color: #FFF;
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
 }
 
-.talkRight__para {
-  color: #ffffff;
+.talkRight__para{
+  color: #FFFFFF;
   opacity: 0.7;
   font-size: 16px;
   font-weight: 500;
@@ -341,58 +340,89 @@ body {
   margin-top: 22px;
 }
 
-.iconItem {
+.iconItem{
   display: flex;
   flex-direction: row;
   column-gap: 25px;
   margin-top: 126px;
   cursor: pointer;
 }
-.iconItem__call {
-  color: #ffffff;
+.iconItem__call{
+  color: #FFFFFF;
   transition: all linear 0.3s;
 }
 
-.iconItem__call:hover {
+.iconItem__call:hover{
   transform: translateY(-15px);
   color: var(--Btn_yello_color);
 }
 
-.yellowClr {
+
+.yellowClr{
   background-color: var(--Btn_yello_color);
   padding: 18px 138px 18px 17px;
   margin-top: -10px;
 }
 
-.mailPart__title {
+.mailPart__title{
   color: #282938;
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
 }
 
-.mailPart__contact {
+.mailPart__contact{
   color: #282938;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
 
-.callPart {
+.callPart{
   margin-left: 30px;
 }
 
-.callPart__title {
+.callPart__title{
   color: #282938;
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
 }
 
-.callPart__number {
+.callPart__number{
   color: #282938;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
 /*============================footer Part Css======================= */
+
+/*============================footer Part Css======================= */
+
+.copyright{
+  padding: 32px 0;
+  background-color: var(--thirt_background_color);
+}
+
+.copyright{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.customItem__link{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 32px;
+}
+
+.customItem__link:hover{
+  color: darkmagenta;
+  cursor: pointer;
+}
+/*============================footer Part Css======================= */
+

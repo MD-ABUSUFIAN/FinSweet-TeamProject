@@ -1,16 +1,18 @@
 /* =================== common css ==================== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+ /* common css  */
 *{
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
+
+    
 ul,li,ol{
     list-style: none;
 }
-a span{
+a,span{
     text-decoration: none;
     display: inline-block;
 }
@@ -30,6 +32,14 @@ h1,h2,h3,h4,h5,h6,div,section,p,a,img,svg,button{
     --font_wight: 600;
     --frist_font_color: #ffffff;
     --socound_font_color: #282938;
+    
+
+    --first_background_color: #1C1E53;
+    
+    
+    --first_font_color: #282938;
+    --Btn_yello_color: #FCD980;
+  
 }
 body{
     font-family: "Poppins", sans-serif;
@@ -123,9 +133,9 @@ body{
     background-color: var(--socund_backgraud_color);
 }
 
-.goalLeft{
+/* .goalLeft{
     margin-left: 80px;
-}
+} */
 
 .goalLeft__head{
     font-size: 16px;
@@ -149,7 +159,7 @@ body{
     line-height: 28px;
     color: var(--socound_font_color);
     opacity: 70%;
-    width: 515px;
+    /* width: 515px; */
 }
 
 .goalRight__title{
@@ -166,7 +176,7 @@ body{
     line-height: 28px;
     color: var(--socound_font_color);
     opacity: 70%;
-    width: 515px; 
+    /* width: 515px;  */
 }
 /* =================== goalPart Part css ==================== */
 /* =================== follow Part css ==================== */
@@ -221,7 +231,7 @@ body{
     line-height: 28px;
     color: var(--socound_font_color);
     opacity: 70%;
-    width: 623px;
+    /* width: 623px; */
 }
 
 
@@ -251,7 +261,7 @@ body{
     line-height: 28px;
     color: var(--socound_font_color);
     opacity: 70%;
-    width: 623px;
+    /* width: 623px; */
 }
 /* =================== Mission Part css ==================== */
 
@@ -289,6 +299,8 @@ body{
     padding: 58px 48px 48px 48px;
     background-color: var(--socund_backgraud_color);
     border-radius: 7px;
+    cursor: pointer;
+    transition: all linear .4s;
 }
 
 .cardPart:hover{
@@ -325,18 +337,52 @@ body{
 .mettTop{
     font-size: 48px;
     font-weight: var(--font_wight);
-    line-height: 64px;
     color: var(--socound_font_color);
 }
 
 .picPart{
-    padding: 50px 40px 50px 40px;
+    padding: 48px 64px 32px;
     background-color: var(--thirt_backgraud_color);
+    cursor: pointer;
+    transition: all linear .3s;
 }
 
 .picPart:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.picPart:hover .overlay{
+    left: 0px;
+}
+.teamPhoto{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+   background: linear-gradient(to bottom, rgba(250, 250, 250, 0),rgba(255, 255, 255, 0), rgba(83, 57, 250, 0.831) 70%);
+   width: 168px;
+   height: 168px ;
+   border-radius: 50%;
+   position: absolute;
+   left: -170px;
+   top: 0px;
+   transition: all linear .2s;
+}
+.overlayContent{
+    position: absolute;
+    left: 40px;
+    bottom: 28px;
+    text-align: center;
+}
+.iconItem__call{
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+    text-decoration: none;
+}
+
+.iconItem__call:hover{
+    transform: translateY(-15px);
+    color: rgb(246, 164, 0);
 }
 
 .picPart__name{
@@ -358,33 +404,44 @@ body{
 }
 /* =================== Meet Part css ==================== */
 
-/* =================== Footer Part css ==================== */
-#footerPart{
-    padding: 128px 0 0 0;
-    background-color: var(--first_backgraud_color);
+/*============================footer Part Css======================= */
+
+#footer{
+    padding: 100px 0 0 0;
+    background-color: var(--first_background_color);
 }
 
-.footerRight__title{
-    font-size: 48px;
-    font-weight: var(--font_wight);
-    line-height: 64px;
+.imageleft__para{
     color: #FFFFFF;
-}
-
-.footerRight__para{
+    opacity: 0.7;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
-    color: #ffffff;
     /* margin-top: 22px; */
-    opacity: 80%;
+
+}
+
+.talkRight__title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.talkRight__para{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 22px;
 }
 
 .iconItem{
     display: flex;
     flex-direction: row;
     column-gap: 25px;
-    /* margin-top: 126px; */
+    margin-top: 126px;
     cursor: pointer;
 }
 .iconItem__call{
@@ -397,55 +454,72 @@ body{
     color: var(--Btn_yello_color);
 }
 
-.footerLeft__para{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-    color: #ffffff;
-    margin-top: 22px;
-    opacity: 80%;
+
+.yellowClr{
+    background-color: var(--Btn_yello_color);
+    padding: 18px 138px 18px 17px;
+    margin-top: -10px;
 }
 
-.colorY{
-    padding: 25px 0;
-    background-color: var(--btn_color);
-    margin-top: 86px;
-}
-
-.emailPart{
-    margin-left: 37px;
-}
-
-/* .callPart{
-    margin-left: 50px;
-} */
-
-.emailPart__mail{
+.mailPart__title{
+    color: #282938;
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
-    color: Dark blue;
 }
 
-.emailPart__contact{
+.mailPart__contact{
+    color: #282938;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color: var(--socound_font_color);
-    opacity: 70%;
-}
-/* =================== Footer Part css ==================== */
-
-/* =================== Copy Right Part css ==================== */
-#copyRight{
-    /* padding: 128px 0px; */
-    background-color: var(--thirt_backgraud_color);
 }
 
-.copyRightBtn{
-    color: var(--socound_font_color);
+.callPart{
+    margin-left: 30px;
+}
+
+.callPart__title{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.callPart__number{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/*============================footer Part Css======================= */
+
+/*============================footer Part Css======================= */
+
+.copyright{
+    padding: 32px 0;
+    background-color: var(--thirt_background_color);
+}
+
+.copyright{
+    color: #282938;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    cursor: pointer;
 }
-/* =================== Copy Right Part css ==================== */
+
+.customItem__link{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 32px;
+}
+
+.customItem__link:hover{
+    color: darkmagenta;
+    cursor: pointer;
+}
+/*============================footer Part Css======================= */
+

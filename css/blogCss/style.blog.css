@@ -8,6 +8,14 @@
   box-sizing: border-box;
   outline: 0;
 }
+:root {
+  --first_background_color: #1C1E53;
+  --second_background_color: #F4F6FC;
+  --thirt_background_color: #ffffff;
+  --first_font_color: #282938;
+  --Btn_yello_color: #FCD980;
+  --poppins_font: "Poppins", sans-serif;
+}
 
 ul,
 li,
@@ -211,3 +219,123 @@ body {
 }
 
 /* ===========Blog css end======= */
+#footer{
+  padding: 100px 0 0 0;
+  background-color: var(--first_background_color);
+}
+
+.imageleft__para{
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  /* margin-top: 22px; */
+
+}
+
+.talkRight__title{
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.talkRight__para{
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 22px;
+}
+
+.iconItem{
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  margin-top: 126px;
+  cursor: pointer;
+}
+.iconItem__call{
+  color: #FFFFFF;
+  transition: all linear 0.3s;
+}
+
+.iconItem__call:hover{
+  transform: translateY(-15px);
+  color: var(--Btn_yello_color);
+}
+
+
+.yellowClr{
+  background-color: var(--Btn_yello_color);
+  padding: 18px 138px 18px 17px;
+  margin-top: -10px;
+}
+
+.mailPart__title{
+  color: #282938;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.mailPart__contact{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.callPart{
+  margin-left: 30px;
+}
+
+.callPart__title{
+  color: #282938;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.callPart__number{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/*============================footer Part Css======================= */
+
+/*============================footer Part Css======================= */
+
+.copyright{
+  padding: 32px 0;
+  background-color: var(--thirt_background_color);
+}
+
+.copyright{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.customItem__link{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 32px;
+}
+
+.customItem__link:hover{
+  color: darkmagenta;
+  cursor: pointer;
+}
+/*============================footer Part Css======================= */
+
+
+
+

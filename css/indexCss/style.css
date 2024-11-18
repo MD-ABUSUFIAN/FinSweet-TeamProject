@@ -89,11 +89,18 @@ body {
     color: var(--thirt_background_color);
     border-radius: 41px;
     margin-left: 85px;
-    transition: ease 2s;
+    transition: all linear .4s;
+}
+.customBtn__link{
+    color: white;
+    transition: all linear .4s;
 }
 
 .coustomBtn:hover {
     background-color: var(--Btn_yello_color);
+}
+.coustomBtn:hover .customBtn__link {
+    color: #2405F2;
 }
 
 /*============================Nav Css======================= */
@@ -357,7 +364,8 @@ body {
     margin-top: 22px;
 }
 
-.featuresPara {
+
+.featuresPara{
     color: var(--first_font_color);
     font-size: 16px;
     font-weight: 400;
@@ -366,6 +374,10 @@ body {
     opacity: 0.7;
     margin-bottom: 12px;
 }
+.workItem{
+    cursor: pointer;
+}
+
 
 /*============================Features Part Css======================= */
 
@@ -425,7 +437,7 @@ body {
 /*============================Faq Part Css======================= */
 
 #faqPart {
-    padding: 128px 0;
+    padding: 70px 0;
     background-color: var(--thirt_background_color);
 }
 

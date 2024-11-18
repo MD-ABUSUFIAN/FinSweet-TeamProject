@@ -54,92 +54,77 @@ img {
     --primary_font_weight: 400;
     --primary_heading_size: 32px;
     --primary_heading_weight: 500;
+    --first_background_color: #1C1E53;
+    --second_background_color: #F4F6FC;
+    --thirt_background_color: #ffffff;
+    --first_font_color: #282938;
+    --Btn_yello_color: #FCD980;
+    --poppins_font: "Poppins", sans-serif;
 }
 
 /* ==================common css end=================== */
 
-/*==================== Nav Bar Start ====================== */
+/*============================Nav Css======================= */
 
-.sticky {
-    background: #1c1e53df;
+.coustomNav {
+    background-color: var(--first_background_color);
+    /* padding: 16px 0; */
 }
 
-.NavBar_Modify {
-    padding: 16px 0;
-}
-
-.NavBarPadding {
-    padding-left: 56px;
-}
-
-.NavBar_link {
+.coustomNavItem {
     color: #BBBBCB;
-    font-family: var(--font_family);
-    font-size: var(--primary_font_size);
-    font-weight: var(--primary_heading_weight);
-    line-height: 28px;
-    transition: ease-in-out 0.3s;
-    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 32px;
     padding: 0 !important;
-}
-
-.NavBar_link::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: ease-in-out 0.3s;
-}
-
-.NavBar_link:hover {
-    color: #fff;
-}
-
-.NavBar_link:hover::after {
-    width: 100%;
-}
-
-.btn_Modify {
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_size);
-    font-weight: var(--primary_heading_weight);
-    line-height: 28px;
-    padding: 16px 48px;
-    background: transparent;
-    border: 2px solid #F4F6FC33;
-    border-radius: 41px;
-    margin-left: 111px;
-    color: #fff;
-    overflow: hidden;
     position: relative;
-    transition: 0.5s all ease;
 }
 
-.btn_Modify:hover {
-    color: var(--dark_blue);
-}
-
-.btn_Modify::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: rgba(252, 217, 128, 1);
+.coustomNavItem::after {
     position: absolute;
-    bottom: 0;
-    left: -190px;
-    border-radius: 41px;
-    transition: 0.5s all ease;
-    z-index: -1;
-}
-
-.btn_Modify:hover::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(248, 244, 244);
     left: 0;
+    bottom: 0;
+    transition: all linear .3s;
 }
 
-/*==================== Nav Bar End ====================== */
+.coustomNavItem:hover {
+    color: var(--thirt_background_color);
+}
+
+.coustomNavItem:hover::after {
+    width: 100%;
+}
+
+
+.coustomBtn {
+    padding: 12px 30px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgba(244, 244, 252, 0.20);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--thirt_background_color);
+    border-radius: 41px;
+    margin-left: 85px;
+    transition: all linear .4s;
+}
+.customBtn__link{
+    color: white;
+    transition: all linear .4s;
+}
+
+.coustomBtn:hover {
+    background-color: var(--Btn_yello_color);
+}
+.coustomBtn:hover .customBtn__link {
+    color: #2405F2;
+}
+
+/*============================Nav Css======================= */
 
 
 /* <!-- ==================== Pricing part start ======================  --> */
@@ -345,102 +330,120 @@ img {
 /* <!-- ==================== Questions  Part End ======================  --> */
 
 
-
-/* ==================== footer part Start ===================== */
-
 #footer{
-    background: rgba(28, 30, 83, 1);
-    padding: 96px 0 0;
+    padding: 100px 0 0 0;
+    background-color: var(--first_background_color);
 }
 
-.footer__summary{
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_size);
-    font-weight: var(--primary_heading_weight);
+.imageleft__para{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 28px;
-    color: rgba(255, 255, 255, 0.573);
-}   
+    /* margin-top: 22px; */
 
-.footerContact{
-    background: #FCD980;
-    margin-top: 97px;
 }
 
-.footerContact__emailtitle{
-    font-family: var(--Poppins);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 32px; 
-    color: var(--dark_blue);  
-}
-
-.footerContact_email{
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_weight);
-    font-weight: var(--primary_font_weight);
-    line-height: 28px;  
-    color: var(--dark_blue);  
-}
-
-.footerContact__calltitle{
-    font-family: var(--Poppins);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 32px; 
-    color: var(--dark_blue);    
-}
-
-.footerContact__num{
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_weight);
-    font-weight: var(--primary_font_weight);
-    line-height: 28px;  
-    color: var(--dark_blue); 
-}
-
-/* <!-- footer right part --> */
-
-.footerRight__title{
-    font-family: var(--Poppins);
+.talkRight__title{
+    color: #FFF;
     font-size: 48px;
     font-weight: 600;
-    line-height: 64px;    
-    color: #fff;
+    line-height: 64px;
 }
-.footerRight__summary{
-    font-family: Poppins;
+
+.talkRight__para{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.iconItem{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    margin-top: 126px;
+    cursor: pointer;
+}
+.iconItem__call{
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+
+.iconItem__call:hover{
+    transform: translateY(-15px);
+    color: var(--Btn_yello_color);
+}
+
+
+.yellowClr{
+    background-color: var(--Btn_yello_color);
+    padding: 18px 138px 18px 17px;
+    margin-top: -10px;
+}
+
+.mailPart__title{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.mailPart__contact{
+    color: #282938;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color: rgba(244, 246, 252, 1);
-    
-}
-.footerRight__Socail-Moddify{
-    color: #fff;
-    width: 16px;
-    height: 16px;
-    margin-right: 26px;
-    margin-top: 40px;
 }
 
-.footer__copyright{
-    font-family: Poppins;
+.callPart{
+    margin-left: 30px;
+}
+
+.callPart__title{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.callPart__number{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/*============================footer Part Css======================= */
+
+/*============================footer Part Css======================= */
+
+.copyright{
+    padding: 32px 0;
+    background-color: var(--thirt_background_color);
+}
+
+.copyright{
+    color: #282938;
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;    
+    line-height: 28px;
+    cursor: pointer;
 }
 
-.footer__navitem{
-    padding-left: 30px;
-}
-
-.footer__navlink{
-    font-family: Poppins;
+.customItem__link{
+    color: #282938;
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;    
-    color: var(--dark_blue);
+    line-height: 28px;
+    margin-top: 32px;
 }
 
+.customItem__link:hover{
+    color: darkmagenta;
+    cursor: pointer;
+}
+/*============================footer Part Css======================= */
 
-/* ==================== footer part End ===================== */
