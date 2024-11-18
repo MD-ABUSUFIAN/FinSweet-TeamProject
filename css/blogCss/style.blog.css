@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* =================common css============ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a,
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+svg,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ==========nav css start====== */
+.customNav {
+  background-color: #1c1e53;
+  padding: 16px 0;
+}
+
+.customNavItem {
+  color: #ffff;
+  margin: 0px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  padding: 0 !important;
+}
+
+.customNavItem::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: aqua;
+  left: 0;
+  top: 0;
+  transition: all linear 0.5s;
+  opacity: 0;
+}
+
+.customNavItem:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+
+.customNavItem::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: aqua;
+  left: 0;
+  bottom: 0;
+  transition: all linear 0.5s;
+  opacity: 0;
+}
+
+.customNavItem:hover::after {
+  width: 0%;
+  opacity: 1;
+}
+
+.customNavItem:hover {
+  color: #ffff;
+}
+/* ==========nav css end======== */
+/* ==========btn css start======== */
+
+.btncustom {
+  border-radius: 41px;
+  border: none;
+  padding: 16px 49px;
+  border: 2px solid rgba(252, 252, 252, 0.2);
+  background-color: transparent;
+  color: #ffff;
+  margin-left: 90px;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: all linear ease-in-out 0.5s;
+  z-index: 1;
+}
+
+.btncustom::after {
+  position: absolute;
+  content: "";
+  width: 10%;
+  height: 100%;
+  border-radius: 41px;
+  background-color: #ffab41;
+  left: 0;
+  top: 0;
+  transition: ease-in-out 0.5s;
+  z-index: -1;
+  opacity: 0;
+}
+
+.btncustom:hover::after {
+  background-color: #018abd;
+  width: 100%;
+  opacity: 1;
+}
+
+/* ===========btn css end======= */
+/* ===========banner css start======= */
+
+#bannerPart {
+  padding: 128px 0 180px 0;
+}
+
+.bannerPartTitle {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+}
+
+.bannerPartSummare {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-bottom: 15px;
+}
+
+.ImgSummare {
+  padding: 48px 0 16px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+  opacity: 70%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===========banner css end======= */
+/* ===========Blog css start======= */
+
+.BlogTaitl {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 48px;
+  text-wrap: nowrap;
+}
+
+.BlogPartCard {
+  margin-bottom: 48px;
+}
+
+.BlogPartCard__date {
+  padding: 32px 0 16px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+  opacity: 70%;
+  font-family: "Poppins", sans-serif;
+}
+
+.BlogPartCard__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+}
+
+.BlogPartCard__Summari {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 70%;
+  color: #282938;
+}
+
+/* ===========Blog css end======= */

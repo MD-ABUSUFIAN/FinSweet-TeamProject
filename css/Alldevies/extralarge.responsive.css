@@ -1,0 +1,33 @@
+/* ===================== Extra large Device Responsive============= */
+
+@media (max-width: 1399.98px) {
+  /* ============Banner Part Start======== */
+  .bannerPartTitle {
+    font-size: 35px;
+    line-height: 51px;
+  }
+
+  .ImgSummare {
+    
+    font-weight: 400;
+    line-height: 26px;
+      
+}
+/* =====================Banner Part End=============== */
+
+
+/* =====================Blog Part Start=============== */
+.BlogPartCard__title {
+  font-size: 20px;
+  line-height: 35px;
+  
+}
+
+.BlogPartCard__Summari {
+  font-size: 14px;
+  line-height: 27px;
+  
+}
+/* =====================Blog Part End=============== */
+}
+/* ===================== Extra large Device Responsive============= */
