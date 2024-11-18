@@ -52,7 +52,7 @@ body {
 
 .customNavItem {
   color: #ffff;
-  margin: 0 27px;
+  margin: 0px 24px;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -137,12 +137,11 @@ body {
 /* ===========btn css end======= */
 /* ===========banner css start======= */
 
-#bannerPart{
+#bannerPart {
   padding: 128px 0 180px 0;
- 
 }
 
-.bannerPartTitle{
+.bannerPartTitle {
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
@@ -150,17 +149,16 @@ body {
   color: #282938;
 }
 
-.bannerPartSummare{
+.bannerPartSummare {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   color: #282938;
-  opacity: .7;
+  opacity: 0.7;
+  padding-bottom: 15px;
 }
 
-
-
-.ImgSummare{
+.ImgSummare {
   padding: 48px 0 16px 0;
   font-size: 16px;
   font-weight: 400;
@@ -170,24 +168,23 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 /* ===========banner css end======= */
 /* ===========Blog css start======= */
 
-.BlogTaitl{
+.BlogTaitl {
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 48px;
+  text-wrap: nowrap;
 }
 
-.BlogPartCard{
-  max-width: 403px;
+.BlogPartCard {
   margin-bottom: 48px;
 }
 
-.BlogPartCard__date{
+.BlogPartCard__date {
   padding: 32px 0 16px 0;
   font-size: 16px;
   font-weight: 500;
@@ -197,8 +194,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.BlogPartCard__title{
-  
+.BlogPartCard__title {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -206,7 +202,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.BlogPartCard__Summari{
+.BlogPartCard__Summari {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -215,4 +211,3 @@ body {
 }
 
 /* ===========Blog css end======= */
-

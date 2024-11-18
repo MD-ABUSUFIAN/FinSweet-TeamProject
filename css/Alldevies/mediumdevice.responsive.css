@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  /* ========Banner Part Start========== */
+  #bannerPart {
+    padding: 73px 0 91px 0;
+  }
+  .bannerPartTitle {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  #bannerPart {
+    padding: 73px 0 91px 0;
+  }
+
+  /* ========Banner Part End======== */
+  /* ========Blog Part Start======== */
+  .BlogTaitl {
+    font-size: 46px;
+    line-height: 52px;
+    margin-bottom: 41px;
+  }
+  .BlogPartCard__date {
+    padding: 15px 0 7px 0;
+    line-height: 19px;
+    opacity: 77%;
+  }
+  .BlogPartCard__title {
+    font-size: 16px;
+    line-height: 27px;
+}
+.BlogPartCard__Summari {
+    font-size: 13px;
+    line-height: 25px;
+}
+  /* ========Blog Part End======== */
+}
