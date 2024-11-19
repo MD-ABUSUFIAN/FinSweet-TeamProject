@@ -14,7 +14,8 @@ ol {
   list-style: none;
 }
 
-a,span {
+a,
+span {
   display: inline-block;
   text-decoration: none;
 }
@@ -145,7 +146,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 48px 0 40px 0;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .cliendItem__title {
@@ -196,8 +198,8 @@ body {
   padding-bottom: 40px;
 }
 
-.project__Link{
-    list-style: square;
+.project__Link {
+  list-style: square;
 }
 
 .project__SecendariTitle {
@@ -235,20 +237,19 @@ body {
 .contactList {
   display: flex;
   justify-content: space-between;
-    color: #282938;
+  color: #282938;
 }
-.contact__link{
-    text-decoration: none;
-    color: #282938;
-    font-weight: 500;
-    transition: all linear .4s;
+.contact__link {
+  text-decoration: none;
+  color: #282938;
+  font-weight: 500;
+  transition: all linear 0.4s;
 }
 
-.contact__link:hover{
-    color: #2405F2;
-    /* font-size: 24px; */
-    
-    }
+.contact__link:hover {
+  color: #2405f2;
+  /* font-size: 24px; */
+}
 
 .contact__Title {
   font-size: 48px;
@@ -257,7 +258,6 @@ body {
   font-family: var(--poppins_font);
   color: #282938;
   margin-top: 128px;
-  
 }
 
 .contact__Summery {
@@ -268,7 +268,6 @@ body {
   line-height: 28px;
   color: #282938;
   padding-top: 20px;
-  
 }
 
 .btncustom {
@@ -280,7 +279,6 @@ body {
   border: 2px solid rgba(252, 252, 252, 0.2);
   background-color: #fcd980;
   color: black;
-  margin-left: 90px;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -309,30 +307,29 @@ body {
 }
 /*============================contact css End======================= */
 
-#footer{
+#footer {
   padding: 100px 0 0 0;
   background-color: var(--first_background_color);
 }
 
-.imageleft__para{
-  color: #FFFFFF;
+.imageleft__para {
+  color: #ffffff;
   opacity: 0.7;
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   /* margin-top: 22px; */
-
 }
 
-.talkRight__title{
-  color: #FFF;
+.talkRight__title {
+  color: #fff;
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
 }
 
-.talkRight__para{
-  color: #FFFFFF;
+.talkRight__para {
+  color: #ffffff;
   opacity: 0.7;
   font-size: 16px;
   font-weight: 500;
@@ -340,56 +337,55 @@ body {
   margin-top: 22px;
 }
 
-.iconItem{
+.iconItem {
   display: flex;
   flex-direction: row;
   column-gap: 25px;
   margin-top: 126px;
   cursor: pointer;
 }
-.iconItem__call{
-  color: #FFFFFF;
+.iconItem__call {
+  color: #ffffff;
   transition: all linear 0.3s;
 }
 
-.iconItem__call:hover{
+.iconItem__call:hover {
   transform: translateY(-15px);
   color: var(--Btn_yello_color);
 }
 
-
-.yellowClr{
+.yellowClr {
   background-color: var(--Btn_yello_color);
   padding: 18px 138px 18px 17px;
   margin-top: -10px;
 }
 
-.mailPart__title{
+.mailPart__title {
   color: #282938;
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
 }
 
-.mailPart__contact{
+.mailPart__contact {
   color: #282938;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
 
-.callPart{
+.callPart {
   margin-left: 30px;
 }
 
-.callPart__title{
+.callPart__title {
   color: #282938;
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
 }
 
-.callPart__number{
+.callPart__number {
   color: #282938;
   font-size: 16px;
   font-weight: 400;
@@ -399,12 +395,12 @@ body {
 
 /*============================footer Part Css======================= */
 
-.copyright{
+.copyright {
   padding: 32px 0;
   background-color: var(--thirt_background_color);
 }
 
-.copyright{
+.copyright {
   color: #282938;
   font-size: 16px;
   font-weight: 500;
@@ -412,7 +408,7 @@ body {
   cursor: pointer;
 }
 
-.customItem__link{
+.customItem__link {
   color: #282938;
   font-size: 16px;
   font-weight: 500;
@@ -420,9 +416,8 @@ body {
   margin-top: 32px;
 }
 
-.customItem__link:hover{
+.customItem__link:hover {
   color: darkmagenta;
   cursor: pointer;
 }
 /*============================footer Part Css======================= */
-

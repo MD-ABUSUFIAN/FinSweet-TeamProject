@@ -1,0 +1,22 @@
+@media (max-width: 575.98px) {
+    /* ==============banner Part Start=========== */
+    .bannerPartTitle {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  
+    .ImgSummare {
+      line-height: 23px;
+      padding: 17px 0 8px 0;
+    }
+    /* ==============banner Part End=========== */
+    /* ==============Blog Part Start=========== */
+    .BlogTaitl {
+      font-size: 33px;
+      font-weight: 500;
+      line-height: 34px;
+    }
+  
+   
+    /* ==============Blog Part End=========== */
+  }
