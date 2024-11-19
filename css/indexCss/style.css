@@ -472,10 +472,11 @@ body {
 }
 
 .contactIng{
-    background-image: url('/images/woman-writing-on-paper.png');
+    background-image: url('../../images/woman-writing-on-paper.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+ 
 }
 
 .websitesleft{
