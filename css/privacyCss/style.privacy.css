@@ -110,13 +110,16 @@ body {
     font-size: 48px;
     font-weight: 600;
     color: #282938;
+    
+    
 }
 .privacy__Summary{
     font-size: 16px;
     font-weight: 400;
     color: #282938;
-    padding-top: 16px;
+    padding-top: 32px;
     opacity: .7;
+
 
 }
 .second__Title{
@@ -132,10 +135,11 @@ body {
 }
 
 .fourth__Title{
-    padding-top: 40px;
+    padding: 32px 0px;
     font-size: 38px;
     font-weight: 600;
     color: #282938;
+    line-height: 56px;
 }
 
 .privacy__Ul{
@@ -144,6 +148,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     opacity: .7;
+    line-height: 28px;
 }
 .privacy__List{
     list-style: inside;

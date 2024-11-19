@@ -1,0 +1,13 @@
+@media (max-width: 991.98px) { 
+    .ourWorkContent__Title {
+        font-size: 40px;
+        font-weight: 600;
+        color: #282938;
+        padding-top: 4px;
+    }
+    .something__Title {
+        font-size: 40px;
+        font-weight: 600;
+        color: #282938;
+    }
+ }
