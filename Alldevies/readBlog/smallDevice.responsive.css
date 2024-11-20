@@ -1,1 +1,30 @@
-   
+@media (max-width: 767.98px) {
+  .read__Title {
+    padding-top: 22px;
+    line-height: 26px;
+  }
+
+  .read__Name {
+    font-size: 13px;
+  }
+
+  .img1stpic {
+    margin-bottom: 20px;
+  }
+
+  .loremContain__Title {
+    /* text-align: center; */
+    font-size: 21px;
+  }
+
+
+.loremContain__Summry {
+    line-height: 22px;
+    /* text-align: center; */
+    font-size: 12px;
+}
+
+.loremlist__list {
+    font-size: 10px;
+}
+}
