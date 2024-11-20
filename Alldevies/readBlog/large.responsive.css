@@ -1,0 +1,12 @@
+@media (max-width: 1199.98px) { 
+    .read__Title {
+        padding-top: 100px;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .loremContain__Title {  
+        font-size: 30px;
+    }
+
+ }

@@ -1,0 +1,30 @@
+@media (max-width: 991.98px) {
+        /*=========== bannar part start ==========  */
+    .read__Title {
+        
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .read__Name {
+        line-height: 30px;
+        padding-top: 5px;
+    }
+
+    .read__Title {
+        line-height: 37px;
+    }
+
+    .loremlist__list {
+       font-size: 13px;
+    }
+
+    .loremContain__Summry { 
+        font-size: 14px; 
+    }
+
+    .loremContain__Title {  
+        font-size: 22px;
+    }
+     /*=========== bannar part start ==========  */
+}
