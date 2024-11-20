@@ -12,6 +12,8 @@ ul,
 li,
 ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 a,span {
@@ -138,6 +140,15 @@ body {
     font-family: var(--poppins_font);
     font-weight: 400px;
     line-height: 28px;
+}
+
+.loremlist{
+padding-bottom: 30px;
+}
+
+.loremlist__list{
+    list-style: inside;
+   padding-bottom: 5px;
 }
 /* ======================      ========================== */
 
