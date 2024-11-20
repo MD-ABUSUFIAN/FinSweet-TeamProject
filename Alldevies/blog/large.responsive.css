@@ -1,0 +1,41 @@
+@media (max-width: 1199.98px) {
+    /* =============Banner part start======== */
+    #bannerPart {
+              padding: 64px 0 54px 0;
+    }
+    
+  
+    .bannerPartTitle {
+      font-size: 34px;
+      line-height: 51px;
+    }
+  
+    .ImgSummare {
+      padding: 30px 0 16px 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    /* ============Banner Part End========== */
+    /* ============Blog Part Start========== */
+  
+    .BlogTaitl {
+      font-size: 45px;
+      line-height: 39px;
+      margin-bottom: 44px;
+    }
+    .BlogPartCard__date {
+      padding: 14px 0 9px 0;
+      font-size: 16px;
+      line-height: 17px;
+    }
+    .BlogPartCard__title {
+      line-height: 29px;
+      font-size: 19px;
+      text-align: justify;
+    }
+    .BlogPartCard__Summari {
+      line-height: 22px;
+    }
+  
+    /* =========Blog Part End======== */
+  }

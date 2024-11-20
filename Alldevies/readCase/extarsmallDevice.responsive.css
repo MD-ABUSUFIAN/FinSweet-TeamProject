@@ -1,0 +1,45 @@
+@media (max-width: 575.98px) {
+  /* ===========Banner Part Start============ */
+
+  /* ===========Banner Part Start============ */
+/* <!-- =========================About Part Start=========================--> */
+  .project__Title {
+    font-size: 27px;
+    line-height: 52px;
+  }
+
+  .project__List {
+    font-size: 10px;
+    line-height: 31px;
+  }
+
+  .project__SecendariTitle {
+    font-size: 35px;
+  }
+
+  .project__SecendariSummery {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+
+  .contact__Title {
+    font-size: 30px;
+    line-height: 43px;
+    margin-top: 35px;
+}
+
+.btncustom {
+    margin-bottom: 64px;
+}
+
+.contactList{
+  font-size: 10px;
+}
+
+.project__SecendariList {
+  font-size: 10px;
+  line-height: 29px;
+  
+}
+}

@@ -1,0 +1,24 @@
+@media (max-width: 1199.98px) {
+  /* =============Baner Part Start=============== */
+  #bannerPart {
+    margin-top: 83px;
+  }
+
+  .cliendItem__title {
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 27px;
+  }
+
+  .cliendItem__summary {
+    font-size: 17px;
+    font-weight: 450;
+    line-height: 34px;
+  }
+  /* =============Baner Part End=============== */
+
+  .contact__Title {
+    font-size: 42px;
+    line-height: 56px;
+  }
+}

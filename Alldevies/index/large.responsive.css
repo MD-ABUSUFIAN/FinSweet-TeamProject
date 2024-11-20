@@ -22,6 +22,10 @@
         padding: 0 25px;
     }
 
+    .offset-lg-1 {
+        margin-left: 24.333%;
+    }
+    
     .para {
         font-size: 36px;
         line-height: 54px;
@@ -56,6 +60,11 @@
         font-size: 15px;
         line-height: 25px;
     }
+
+    .form-control {
+        width: 91%;
+    }
+
 
     .sandBtn {
         padding: 6px 90px;
@@ -98,8 +107,15 @@
         font-size: 12px;
     }
 
+    .callPart {
+        margin-left: 0px;
+    }
     .copyright {
         font-size: 14px;
+    }
+
+    ol, ul {
+        padding-left: 0rem;
     }
     /* ================ Large Responsive =============== */
  }

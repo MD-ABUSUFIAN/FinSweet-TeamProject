@@ -1,1 +1,37 @@
-   
+@media (max-width: 767.98px) {
+  /* =========Banner Part Start========= */
+  #bannerPart {
+    margin-top: 53px;
+  }
+
+  .cliendItem__title {
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .cliendItem__summary {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  /* <!-- =========================About Part Start=========================--> */
+  .project__Title {
+    font-size: 31px;
+    line-height: 53px;
+}
+
+.project__SecendariTitle {
+    line-height: 39px;
+    padding: 38px 0 12px 0;
+}
+
+.contact__Title {
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 40px;
+}
+
+.contactList{
+  font-size: 13px;
+}
+}

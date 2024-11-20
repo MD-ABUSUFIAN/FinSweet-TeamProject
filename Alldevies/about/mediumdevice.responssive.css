@@ -1,0 +1,144 @@
+/* =============== Medium Device Responsive ============== */
+
+@media (max-width: 991.98px) { 
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+    /* ================ Medium Device Responsive =============== */
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 1px dashed #FCD980;
+    }
+
+    .coustomNavItem{
+        text-align: center;
+        background-color: var(--Btn_yello_color);
+        border-radius: 5px;
+        padding: 5px 0;
+        margin: 10px 0;
+        color: black;
+    }
+
+    h1, h2, h3, h4, h5, h6, div, section, p, a, img, svg, button {
+        padding: 10px;
+    }
+
+    .costomBtn {
+        padding: 10px 145px;
+        margin-left: 150px;
+    }
+
+    .coustomNav {
+        padding: 0px 0;
+    }
+
+    #bannerPart {
+        padding: 10px 0px;
+    }
+
+    .bannerLeft__head {
+        margin-bottom: 0px;
+    }
+
+    .bannerLeft__title {
+        margin-bottom: 5px;
+    }
+
+    .bannerLeft__para {
+        margin-bottom: 20px;
+    }
+
+    #goalPart {
+        padding: 10px 0px;
+    }
+
+    .goalRight__title {
+        font-size: 32px;
+    }
+
+    #followPart {
+        padding: 10px 0px;
+    }
+
+    .missionRight__title {
+        font-size: 19px;
+    }
+
+    .missionRight__para {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    #workingPart {
+        padding: 5px 0px;
+    }
+
+    .topPart {
+        font-size: 25px;
+    }
+
+    .cardPart {
+        padding: 5px 10px 11px 10px;
+    }
+
+    .cardPart__title {
+        font-size: 15px;
+    }
+
+    #meetPart {
+        padding: 10px 0px;
+    }
+
+    .mettTop {
+        font-size: 48px;
+    }
+
+
+    .missionLeft__head {
+        margin-bottom: -20px;
+    }
+
+    #missionPart {
+        padding: 10px 0px;
+    } 
+
+    .missionLeft__title {
+        font-size: 23px;
+        margin-bottom: -18px;
+    }
+
+    .missionLeft__para {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .overlay {
+        margin-left: 21px;
+    }
+
+    .overlay {
+        left: -195px;
+        top: 21px;
+    }
+
+    .overlayContent {
+        left: 13px;
+    }
+
+    .callPart {
+        margin-left: 0px;
+    }
+
+    ol, ul {
+        padding-left: 0rem;
+    }
+
+
+}
+/* ================ Medium Device Responsive =============== */

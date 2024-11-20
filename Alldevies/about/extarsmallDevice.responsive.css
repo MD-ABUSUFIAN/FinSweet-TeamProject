@@ -1,0 +1,67 @@
+/* =============== Extrasmall Device Responsive ============== */
+
+@media (max-width: 991.98px) { 
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+    /* ================ Extrasmall Device Responsive =============== */
+
+    .navbar-nav {
+        padding-right: 120px;
+    }
+
+    .bannerLeft__title {
+        font-size: 30px;
+    }
+
+    .goalLeft__title {
+        font-size: 35px;
+    }
+
+    .missionLeft__title {
+        font-size: 21px;
+    }
+
+    .mettTop {
+        font-size: 20px;
+    }
+
+    .teamPhoto {
+        margin-left: 12px;
+    }
+    .picPart {
+        padding: 48px 120px 32px;
+    }
+
+    .mailPart__title {
+        font-size: 9px;
+        line-height: 0px;
+    }
+
+    .mailPart__contact {
+        font-size: 8px;
+    }
+
+    .callPart__title {
+        font-size: 11px;
+    }
+
+    .callPart__number {
+        font-size: 6px;
+    }
+
+    .customItem__link {
+        font-size: 6px;
+        margin-top: 0px;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}
+/* ================ Extrasmall Device Responsive =============== */

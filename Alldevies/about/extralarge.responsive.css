@@ -9,5 +9,10 @@
         --Btn_yello_color: #FCD980;
         --poppins_font: "Poppins", sans-serif; 
     }
+    /* ================ Extra Large Responsive =============== */
+    .picPart{
+        padding: 25px 40px 32px;
+    }
+    /* ================ Extra Large Responsive =============== */
 } 
 /* =============== ExtarLarge Device Responsive ============== */

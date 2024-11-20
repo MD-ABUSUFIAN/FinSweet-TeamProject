@@ -1,0 +1,46 @@
+/* ===================== Extra large Device Responsive============= */
+
+@media (max-width: 1399.98px) {
+    /* ============Banner Part Start======== */
+    #bannerPart {
+      padding: 84px 0 50px 0;
+    }
+  
+    .bannerPartTitle {
+      font-size: 39px;
+      line-height: 53px;
+    }
+  
+    .bannerPartSummare {
+      line-height: 32px;
+      padding-bottom: 15px;
+    }
+  
+    .ImgSummare {
+      padding: 36px 0 16px 0;
+      font-weight: 500;
+    }
+  
+    /* =====================Banner Part End=============== */
+  
+    /* =====================Blog Part Start=============== */
+    .BlogPartCard__date {
+      padding: 19px 0 9px 0;
+      line-height: 17px;
+    }
+  
+    .BlogPartCard__title {
+      font-size: 20px;
+      line-height: 30px;
+  }
+  
+    .BlogPartCard__Summari {
+      font-size: 14px;
+      line-height: 27px;
+    }
+  
+    /* =====================Blog Part End=============== */
+  }
+  
+  /* ===================== Extra large Device Responsive============= */
+  
