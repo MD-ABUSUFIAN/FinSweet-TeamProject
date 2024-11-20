@@ -55,7 +55,7 @@ body{
     color: #BBBBCB;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 26px;
+    margin-right: 12px;
 
 }
 
@@ -341,7 +341,7 @@ body{
 }
 
 .picPart{
-    padding: 48px 64px 32px;
+    padding: 48px 42px 32px;
     background-color: var(--thirt_backgraud_color);
     cursor: pointer;
     transition: all linear .3s;
