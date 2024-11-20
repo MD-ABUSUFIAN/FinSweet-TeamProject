@@ -14,6 +14,9 @@
         font-size: 35px;
         line-height: 55px;
     }
+    #bannerPart {
+        padding: 70px 0px;
+    }
 
     .bannerLeft__para {
         font-size: 13px;

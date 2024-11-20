@@ -341,7 +341,7 @@ body{
 }
 
 .picPart{
-    padding: 48px 42px 32px;
+    padding: 48px 65px 32px;
     background-color: var(--thirt_backgraud_color);
     cursor: pointer;
     transition: all linear .3s;

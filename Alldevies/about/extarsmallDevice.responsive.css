@@ -34,6 +34,9 @@
     .teamPhoto {
         margin-left: 12px;
     }
+    .picPart {
+        padding: 48px 120px 32px;
+    }
 
     .mailPart__title {
         font-size: 9px;

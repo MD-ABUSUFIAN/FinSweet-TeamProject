@@ -19,8 +19,9 @@
         font-size: 23px;
     }
 
-    .teamPhoto {
-        margin-left: 108px;
+    .picPart {
+        padding: 48px 120px 32px;
     }
+   
 } 
  /* ================ Small Device Responsive =============== */  

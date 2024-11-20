@@ -43,7 +43,7 @@
     }
 
     .bannerLeft__head {
-        margin-bottom: -15px;
+        margin-bottom: 0px;
     }
 
     .bannerLeft__title {
@@ -80,7 +80,7 @@
     }
 
     .topPart {
-        font-size: 32px;
+        font-size: 25px;
     }
 
     .cardPart {
@@ -96,7 +96,7 @@
     }
 
     .mettTop {
-        font-size: 33px;
+        font-size: 48px;
     }
 
 
