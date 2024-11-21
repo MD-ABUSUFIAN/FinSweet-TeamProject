@@ -20,7 +20,7 @@
     }
 
     .picPart {
-        padding: 48px 120px 32px;
+        padding: 48px 120px 32px !important;
     }
    
 } 

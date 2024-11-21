@@ -32,10 +32,11 @@
     }
 
     .teamPhoto {
-        margin-left: 12px;
+       overflow: hidden;
+
     }
     .picPart {
-        padding: 48px 120px 32px;
+        padding: 48px 150px 32px !important;
     }
 
     .mailPart__title {
