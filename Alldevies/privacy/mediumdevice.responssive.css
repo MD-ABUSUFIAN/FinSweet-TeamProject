@@ -1,4 +1,29 @@
 @media (max-width: 991.98px) { 
+    :root {
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
+    }
+     /* Navbar */
+    .coustomItam{
+        background-color: var(--Btn_yello_color);
+        text-align: center;
+        padding: 5px 0;
+        margin: 5px;
+        border-radius: 7px;
+        
+    }
+    .coustomBtn {
+        padding: 10px 125px;
+    }
+    
+    .coustomBtn {
+        margin-left: 160px;
+    }
+    /* Navbar */
     .fourth__Title {
         padding: 25px 0px;
         font-size: 32px;
@@ -6,5 +31,18 @@
     }
     #privacy {
         padding: 70px 0px;
+    }
+     /* Footer  */
+     .iconItem { 
+        margin: 20px auto;
+    }
+    .customItem__link {
+        margin-top: -12px;
+    }
+    .copyright{
+     text-align: center;
+    }
+    .callPart {
+        margin-left: 0px;
     }
  }

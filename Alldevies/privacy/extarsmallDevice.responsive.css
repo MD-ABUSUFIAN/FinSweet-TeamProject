@@ -4,5 +4,8 @@
         text-align: center;
         line-height: 30px;
     }
+    .coustomBtn {
+        margin-left: 90px;
+    } 
     
  }

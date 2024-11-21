@@ -1,4 +1,7 @@
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
+    .coustomBtn {
+        margin-left: 70px;
+    } 
     #privacy {
         padding: 40px 0px;
     }
