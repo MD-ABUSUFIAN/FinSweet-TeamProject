@@ -1,0 +1,9 @@
+@media (max-width: 575.98px) { 
+
+    .BannerContent {
+        text-align: center;
+    }
+    .BannerContent_btnOne {
+        margin-left: 36px; 
+    }
+}

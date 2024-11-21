@@ -1,1 +1,38 @@
-   
+@media (max-width: 767.98px) { 
+    #Banner {
+        padding: 102px 0px 128px;
+    }
+    .BannerContent {
+        margin-top: 50px;
+    }
+    .BannerContent_btnOne{
+        margin-left: 136px;
+    }
+    .contentWrapper__title {
+        font-size: 27px;
+    }
+    #Problems {
+        padding: 0 0 68px;
+    }
+    #content2 {
+        padding: 55px 0;
+    }
+    #content1 {
+        padding: 0 0 69px;
+    }
+    #content3 {
+        padding: 42px 0;
+    }
+    #content4 {
+        padding: 93px 0;
+    }
+    .QuestionsLeft{
+        margin-bottom: 25px ;
+    }
+    #Questions {
+        padding: 29px 0;
+    }
+    .QuestionsLeft_title {
+        font-size: 36px;
+    }
+}
