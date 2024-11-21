@@ -1,4 +1,9 @@
 @media (max-width: 575.98px) {
+       /* navbar */
+.coustomBtn {
+    margin-left: 95px;
+  }
+  /* navbar */
     .loremlist__list {
         font-size: 10px;
     }

@@ -1,3 +1,13 @@
 @media (max-width: 767.98px) { 
-   
+  /* navbar */
+  .coustomBtn {
+    margin-left: 76px;
+  }
+  /* navbar */
+  
+  /* Footer  */
+  .callPart {
+    margin-left: 20px;
+}
+  /* Footer  */
  }   
