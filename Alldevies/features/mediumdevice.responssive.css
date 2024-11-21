@@ -1,17 +1,88 @@
-@media (max-width: 767.98px) { 
+@media (max-width: 991.98px) { 
     :root {
-        --bg_color: #1C1E53;
-        --dark_blue: #282938;
-        --royle_blue: #2405F2;
-        --Manrope: "Manrope", sans-serif;
-        --Poppins: "Poppins", sans-serif;
-        --primary_font_color: #282938;
-        --primary_font_size: 16px;
-        --primary_font_weight: 400;
-        --primary_heading_size: 32px;
-        --primary_heading_weight: 500;
+        --first_background_color: #1C1E53;
+        --second_background_color: #F4F6FC;
+        --thirt_background_color: #ffffff;
+        --first_font_color: #282938;
+        --Btn_yello_color: #FCD980;
+        --poppins_font: "Poppins", sans-serif; 
     }
-    .footerSocial{
-        margin-bottom: 20px;
+    /* Navbar */
+    .coustomItam{
+        background-color: var(--Btn_yello_color);
+        text-align: center;
+        padding: 5px 0;
+        margin: 5px;
+        border-radius: 7px;
+        
     }
+    .coustomBtn {
+        padding: 10px 125px;
+        margin-left: 160px;
+    }
+
+  
+    /* Navbar */
+
+
+    /* banner */
+    .BannerContent_btnOne {
+        padding: 16px 56px;
+        margin-left: 220px;
+    }
+    .BannerContent_h2{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .BannerContent_p {
+        text-align: center;
+    }
+    /* banner */
+    #Questions {
+        padding: 59px 0;
+    }
+    #Problems {
+        padding: 0px 0 64px;
+    }
+    #content1 {
+        margin-left: 120px;
+    }
+    #content3 {
+        padding: 29px 0;
+    }
+    .content2-Content{
+        margin-left: 50px;
+    }
+    .content3-Content{
+        margin-left: 50px;
+    }
+    .content4-Content{
+        margin-left: 50px;
+    }
+    .contentWrapper__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+
+
+   /* Footer  */
+   .iconItem { 
+    margin: 20px auto;
+   
+}
+.customItem__link {
+    margin-top: -12px;
+}
+.copyright{
+ text-align: center;
+}
+.callPart {
+    margin-left: 0px;
+}
 }

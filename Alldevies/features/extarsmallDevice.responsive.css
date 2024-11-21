@@ -1,5 +1,8 @@
 @media (max-width: 575.98px) { 
-
+    .coustomBtn {
+        
+        margin-left: 100px;
+    }
     .BannerContent {
         text-align: center;
     }

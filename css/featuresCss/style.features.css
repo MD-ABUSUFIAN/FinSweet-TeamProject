@@ -53,6 +53,13 @@ img {
     --primary_font_weight: 400;
     --primary_heading_size: 32px;
     --primary_heading_weight: 500;
+
+    --first_background_color: #1C1E53;
+    --second_background_color: #F4F6FC;
+    --thirt_background_color: #ffffff;
+    --first_font_color: #282938;
+    --Btn_yello_color: #FCD980;
+    --poppins_font: "Poppins", sans-serif;
 }
 
 /* ==================common css end=================== */
@@ -118,7 +125,7 @@ img {
 /* <!-- ==================== Banner Part Start ======================  --> */
 
 #Banner {
-    padding: 218px 0px 128px;
+    padding: 128px 0px 128px;
     background: var(--bg_color);
 }
 
@@ -331,101 +338,122 @@ img {
 
 /* ==================== footer part Start ===================== */
 
-#footer {
-    background: rgba(28, 30, 83, 1);
-    padding: 96px 0 0;
+
+/*============================footer Part Css======================= */
+
+#footer{
+    padding: 100px 0 0 0;
+    background-color: var(--first_background_color);
 }
 
-.footer__summary {
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_size);
-    font-weight: var(--primary_heading_weight);
-    line-height: 28px;
-    color: rgba(255, 255, 255, 0.573);
-}
-
-.footerContact {
-    background: #FCD980;
-    margin-top: 97px;
-}
-
-.footerContact__emailtitle {
-    font-family: var(--Poppins);
-    font-size: 18px;
+.imageleft__para{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 32px;
-    color: var(--dark_blue);
-}
-
-.footerContact_email {
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_weight);
-    font-weight: var(--primary_font_weight);
     line-height: 28px;
-    color: var(--dark_blue);
+    /* margin-top: 22px; */
+
 }
 
-.footerContact__calltitle {
-    font-family: var(--Poppins);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 32px;
-    color: var(--dark_blue);
-}
-
-.footerContact__num {
-    font-family: var(--Poppins);
-    font-size: var(--primary_font_weight);
-    font-weight: var(--primary_font_weight);
-    line-height: 28px;
-    color: var(--dark_blue);
-}
-
-/* <!-- footer right part --> */
-
-.footerRight__title {
-    font-family: var(--Poppins);
+.talkRight__title{
+    color: #FFF;
     font-size: 48px;
     font-weight: 600;
     line-height: 64px;
-    color: #fff;
 }
 
-.footerRight__summary {
-    font-family: Poppins;
+.talkRight__para{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.iconItem{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    margin-top: 126px;
+    cursor: pointer;
+}
+.iconItem__call{
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+
+.iconItem__call:hover{
+    transform: translateY(-15px);
+    color: var(--Btn_yello_color);
+}
+
+
+.yellowClr{
+    background-color: var(--Btn_yello_color);
+    padding: 18px 138px 18px 17px;
+    margin-top: -10px;
+}
+
+.mailPart__title{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.mailPart__contact{
+    color: #282938;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color: rgba(244, 246, 252, 1);
-
 }
 
-.footerRight__Socail-Moddify {
-    color: #fff;
-    width: 16px;
-    height: 16px;
-    margin-right: 26px;
-    margin-top: 40px;
+.callPart{
+    margin-left: 30px;
 }
 
-.footer__copyright {
-    font-family: Poppins;
+.callPart__title{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.callPart__number{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/*============================footer Part Css======================= */
+
+/*============================footer Part Css======================= */
+
+.copyright{
+    padding: 32px 0;
+    background-color: var(--thirt_background_color);
+}
+
+.copyright{
+    color: #282938;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    cursor: pointer;
 }
 
-.footer__navitem {
-    padding-left: 30px;
-}
-
-.footer__navlink {
-    font-family: Poppins;
+.customItem__link{
+    color: #282938;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
-    color: var(--dark_blue);
+    margin-top: 32px;
 }
 
-
-/* ==================== footer part End ===================== */
+.customItem__link:hover{
+    color: darkmagenta;
+    cursor: pointer;
+}
+/*============================footer Part Css======================= */

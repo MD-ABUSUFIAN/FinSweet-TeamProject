@@ -14,17 +14,22 @@
     #Problems {
         padding: 0 0 68px;
     }
-    #content2 {
-        padding: 55px 0;
+
+     #content1 {
+        margin-left: 0px;
     }
-    #content1 {
-        padding: 0 0 69px;
+    .content2-Content{
+        margin-left: 0;
     }
-    #content3 {
-        padding: 42px 0;
+    .content3-Content{
+        margin-left: 0;
     }
-    #content4 {
-        padding: 93px 0;
+    .content4-Content{
+        margin-left: 0;
+    }
+    .contentWrapper__title {
+        font-size: 20px;
+        line-height: 30px;
     }
     .QuestionsLeft{
         margin-bottom: 25px ;
