@@ -9,6 +9,12 @@
         padding: 10px 0 !important;
         margin: 10px 0;
     }
+    #Questions {
+        padding: 15px 0;
+    }
+    .AccordionNum-Moddify{
+        font-size: 20px;
+    }
     .pricingItem {
         padding: 33px 60px 0 60px;
     }
