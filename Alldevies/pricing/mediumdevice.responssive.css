@@ -62,11 +62,17 @@
         margin-bottom: 20px;
     }
     .coustomBtn {
-        margin-left: 0;
+        margin-left: 240px;
     }
     .coustomNavItem {
         margin-bottom: 8px;
+        padding: 10px 0px !important;
     }
+    .customBtn__link {
+        padding: 5px 30px !important;
+    }
+    /* navbar  */
+
     /* pricing */
     #Pricing{
         margin-top: 0px !important;
@@ -111,10 +117,23 @@
     }
 
     /* Footer  */
-    .iconItem { 
-        margin: 20px auto;
-        
-       
+    #footer {
+    padding: 15px 0 0;
+  }
+
+  .copyright {
+    font-size: 20px;
+    line-height: 0px;
+}
+.talkRight__para {
+    font-size: 16px;
+}
+.imageleft__para {
+    
+    margin-top: 11px;
+}
+    .iconItem {
+        margin: 0px auto;
     }
     .customItem__link {
         margin-top: -12px;
