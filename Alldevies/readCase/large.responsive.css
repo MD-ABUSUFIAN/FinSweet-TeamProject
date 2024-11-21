@@ -15,10 +15,16 @@
     font-weight: 450;
     line-height: 34px;
   }
+  
   /* =============Baner Part End=============== */
 
   .contact__Title {
     font-size: 42px;
     line-height: 56px;
   }
+  /* footer  */
+  .iconItem {
+    margin: 70px 0px;
+}
+  /* footer  */
 }

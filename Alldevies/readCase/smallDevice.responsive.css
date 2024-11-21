@@ -19,15 +19,26 @@
     line-height: 26px;
   }
 
-  /* <!-- =========================About Part Start=========================--> */
+  /* <!-- =========================About PartStart=========================--> */
   .project__Title {
     font-size: 31px;
     line-height: 53px;
 }
-
+.project__Link {
+  font-size: 11px;
+  line-height: 20px;
+  padding: 0;
+}
 .project__SecendariTitle {
     line-height: 39px;
     padding: 38px 0 12px 0;
+}
+.project__SecendariList {
+  font-size: 16px;
+  
+  line-height: 29px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .contact__Title {
@@ -38,5 +49,8 @@
 
 .contactList{
   font-size: 13px;
+}
+.callPart {
+  margin-left: 23px;
 }
 }
