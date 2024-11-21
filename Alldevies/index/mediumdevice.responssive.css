@@ -23,7 +23,9 @@
     }
 
    
-
+    .workItem {
+        padding-right: 0px !important;
+    }
     .banner--modify {
         margin-left: 8px;
     }

@@ -21,9 +21,12 @@
     }
 
     .coustomBtn {
-        padding: 15px 26px;
+        padding: 10px 60px;
+        margin-left: 160px;
     }
-
+    .banner--modify{
+        margin-left: 70px;
+    }
     #workPart {
         padding: 30px 0;
     }

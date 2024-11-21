@@ -198,6 +198,7 @@ body {
 
 .customWarpper {
     row-gap: 45px;
+    cursor: pointer;
 }
 
 .workItem__title {
