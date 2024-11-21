@@ -7,6 +7,7 @@
         --Btn_yello_color: #FCD980;
         --poppins_font: "Poppins", sans-serif; 
     }
+     /* Navbar */
     .coustomItam{
         background-color: var(--Btn_yello_color);
         text-align: center;
@@ -15,7 +16,6 @@
         border-radius: 7px;
         
     }
-  
     .coustomBtn {
         padding: 10px 125px;
     }
@@ -23,6 +23,7 @@
     .coustomBtn {
         margin-left: 160px;
     }
+    /* Navbar */
 
     .banner--modify {
         margin-left: 8px;
