@@ -36,6 +36,12 @@
     .BlogPartCard__Summari {
       line-height: 22px;
     }
+
+    /* footer  */
+  .iconItem {
+    margin: 40px 0px;
+}
+  /* footer  */
   
     /* =========Blog Part End======== */
   }

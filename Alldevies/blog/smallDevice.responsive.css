@@ -1,4 +1,9 @@
 @media (max-width: 767.98px) {
+  /* navbar */
+.coustomBtn {
+  margin-left: 76px;
+}
+/* navbar */
   /* =========Banner Part Start====== */
   #bannerPart {
     padding: 41px 0 28px 0;
@@ -43,4 +48,9 @@
     margin-bottom: 16px;
   }
   /* ============Blog Part Start========== */
+  /* Footer  */
+  .callPart {
+    margin-left: 20px;
+}
+  /* Footer  */
 }
