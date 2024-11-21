@@ -1,4 +1,9 @@
 @media (max-width: 767.98px) {
+   /* navbar */
+.coustomBtn {
+  margin-left: 76px;
+}
+/* navbar */
   .read__Title {
     padding-top: 22px;
     line-height: 26px;
@@ -27,4 +32,9 @@
 .loremlist__list {
     font-size: 10px;
 }
+/* Footer  */
+.callPart {
+  margin-left: 20px;
+}
+/* Footer  */
 }

@@ -189,7 +189,7 @@ padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     column-gap: 25px;
-    margin-top: 126px;
+    margin: 40px 0;
     cursor: pointer;
 }
 .iconItem__call{
