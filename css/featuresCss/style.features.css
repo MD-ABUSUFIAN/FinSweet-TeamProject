@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================common css Start=================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a,
+span {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+section,
+p,
+a,
+button,
+img,
+svg {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+:root {
+    --bg_color: #1C1E53;
+    --dark_blue: #282938;
+    --royle_blue: #2405F2;
+    --Manrope: "Manrope", sans-serif;
+    --Poppins: "Poppins", sans-serif;
+    --primary_font_color: #282938;
+    --primary_font_size: 16px;
+    --primary_font_weight: 400;
+    --primary_heading_size: 32px;
+    --primary_heading_weight: 500;
+}
+
+/* ==================common css end=================== */
+
+
+/*============================Nav Css======================= */
+
+.coustomNav {
+    background-color: var(--bg_color);
+    /* padding: 16px 0; */
+}
+
+.coustomNavItem {
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 32px;
+    padding: 0 !important;
+    position: relative;
+}
+
+.coustomNavItem::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(248, 244, 244);
+    left: 0;
+    bottom: 0;
+    transition: all linear .3s;
+}
+
+.coustomNavItem:hover {
+    color: white;
+}
+
+.coustomNavItem:hover::after {
+    width: 100%;
+}
+
+
+.coustomBtn {
+    padding: 12px 30px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgba(244, 244, 252, 0.20);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 41px;
+    margin-left: 85px;
+    transition: ease 2s;
+    color: #fff;
+}
+
+.coustomBtn:hover {
+    background-color: #FCD980;
+    color: var(--dark_blue);
+
+}
+
+/*============================Nav Css======================= */
+
+/* <!-- ==================== Banner Part Start ======================  --> */
+
+#Banner {
+    padding: 218px 0px 128px;
+    background: var(--bg_color);
+}
+
+.BannerContent {
+    color: white;
+}
+
+.BannerContent_h2 {
+    font-family: var(--Poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+.BannerContent_p {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.625);
+    margin-bottom: 48px;
+}
+
+.BannerContent_btnOne {
+    padding: 16px 56px;
+    background: rgba(252, 217, 128, 1);
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    border: none;
+    border-radius: 41px;
+    margin-right: 40px;
+}
+
+.BannerContent_btnTwo {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;
+    color: #fff;
+}
+
+/* ========= Banner part end ============== */
+/* =========== Brand part start ============= */
+#Brand {
+    padding: 96px 0;
+}
+
+.Brand__span {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: var(--dark_blue);
+}
+
+.Brand__p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark_blue);
+
+}
+
+/* =========== Brand part end ============= */
+
+
+/* <!-- ==================== Team Part Start ======================  --> */
+
+#Problems {
+    padding: 0 0 128px;
+}
+
+.ProblemsHead_h2 {
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--dark_blue);
+}
+
+/* <!--///////// Service part //// --> */
+
+.ProblemsBottomItemWrap {
+    background: #F4F6FC;
+}
+
+.ProblemsBottomItemWrap_h4 {
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 36px;
+
+}
+
+.ProblemsBottomItemWrap_p {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;
+}
+
+/* <!-- ==================== Team Part End ======================  --> */
+
+
+/* <!--================= Img content part start 1 =================== --> */
+#content1 {
+    padding: 0 0 128px;
+}
+
+.contentWrapper__tag {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 32px;
+}
+
+.contentWrapper__title {
+    font-family: var(--Poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+
+.contentWrapper__summary {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.6);
+}
+
+#content2 {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+#content3 {
+    padding: 128px 0;
+}
+
+#content4 {
+    padding: 128px 0;
+    background: rgba(252, 217, 128, 0.1);
+
+}
+
+/* <!--================= Img content part end 1 =================== --> */
+
+
+
+/* <!-- =================== Questions  Part Start =====================  --> */
+
+#Questions {
+    padding: 128px 0;
+}
+
+.QuestionsLeft_title {
+    font-family: var(--Poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: var(--dark_blue);
+}
+
+.QuestionsLeft_link {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 32px;
+    color: var(--royle_blue);
+}
+
+.accordion-header {
+    margin-bottom: 5px;
+}
+
+.accordion-button::after {
+    background-image: url("/images/features/plus.svg");
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/images/features/x.svg");
+}
+
+.Accordion-Moddify {
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 36px;
+}
+
+.AccordionNum-Moddify {
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-weight: var(--primary_heading_weight);
+    line-height: 36px;
+    color: #2405F2;
+}
+
+/* <!-- ==================== Questions  Part End ======================  --> */
+
+
+/* ==================== footer part Start ===================== */
+
+#footer {
+    background: rgba(28, 30, 83, 1);
+    padding: 96px 0 0;
+}
+
+.footer__summary {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_size);
+    font-weight: var(--primary_heading_weight);
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.573);
+}
+
+.footerContact {
+    background: #FCD980;
+    margin-top: 97px;
+}
+
+.footerContact__emailtitle {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--dark_blue);
+}
+
+.footerContact_email {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_weight);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;
+    color: var(--dark_blue);
+}
+
+.footerContact__calltitle {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--dark_blue);
+}
+
+.footerContact__num {
+    font-family: var(--Poppins);
+    font-size: var(--primary_font_weight);
+    font-weight: var(--primary_font_weight);
+    line-height: 28px;
+    color: var(--dark_blue);
+}
+
+/* <!-- footer right part --> */
+
+.footerRight__title {
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #fff;
+}
+
+.footerRight__summary {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(244, 246, 252, 1);
+
+}
+
+.footerRight__Socail-Moddify {
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    margin-right: 26px;
+    margin-top: 40px;
+}
+
+.footer__copyright {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.footer__navitem {
+    padding-left: 30px;
+}
+
+.footer__navlink {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--dark_blue);
+}
+
+
+/* ==================== footer part End ===================== */

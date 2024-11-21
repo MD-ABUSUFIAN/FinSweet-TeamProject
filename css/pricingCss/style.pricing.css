@@ -130,7 +130,7 @@ img {
 /* <!-- ==================== Pricing part start ======================  --> */
 
 #Pricing{
-    padding: 220px 0 0;
+    padding: 128px 0 0;
 }
 
 .PricingHead{
@@ -159,7 +159,7 @@ img {
 .pricingItem{
     height: 745px;
     background: #F4F6FC;
-    padding: 64px 76px 0 48px;
+    padding: 64px 48px 0 48px;
     border-radius: 12px;
     transition: all linear 0.6s;
     margin-top: 64px;
@@ -302,14 +302,14 @@ img {
 }
 
 .accordion-button::after {
-    background-image: url("/images/plus.svg");
+    background-image: url("/images/features/plus.svg");
     background-size: 30px;
     width: 30px;
     height: 30px;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("/images/x.svg");
+    background-image: url("/images/features/x.svg");
 }
 
 .Accordion-Moddify{

@@ -1,13 +1,44 @@
 /* =============== ExtarLarge Device Responsive ============== */
 
-@media (max-width: 1399.98px) { 
+@media (max-width: 1199.98px) { 
     :root {
-        --first_background_color: #1C1E53;
-        --second_background_color: #F4F6FC;
-        --thirt_background_color: #ffffff;
-        --first_font_color: #282938;
-        --Btn_yello_color: #FCD980;
-        --poppins_font: "Poppins", sans-serif; 
+        --bg_color: #1C1E53;
+        --dark_blue: #282938;
+        --royle_blue: #2405F2;
+        --Manrope: "Manrope", sans-serif;
+        --Poppins: "Poppins", sans-serif;
+        --primary_font_color: #282938;
+        --primary_font_size: 16px;
+        --primary_font_weight: 400;
+        --primary_heading_size: 32px;
+        --primary_heading_weight: 500;
+    }
+    .Brand__span {
+        font-size: 27px;
+        line-height: 22px;
+    }
+    .ProblemsBottomItemWrap_p {
+        font-size: 13px;
+    }
+    .contentWrapper__title {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    /* footer part */
+    .footerContact__emailtitle {
+        font-size: 16px;
+    }
+    .footerContact_email {
+        font-size: 13px;
+    }
+    .footerContact__calltitle{
+        font-size: 16px;
+    }
+    .footerContact__num{
+        font-size: 13px;
+    }
+    .footerRight__summary{
+        font-size: 14px;
     }
 } 
 /* =============== ExtarLarge Device Responsive ============== */

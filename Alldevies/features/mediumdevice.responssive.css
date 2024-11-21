@@ -1,0 +1,17 @@
+@media (max-width: 767.98px) { 
+    :root {
+        --bg_color: #1C1E53;
+        --dark_blue: #282938;
+        --royle_blue: #2405F2;
+        --Manrope: "Manrope", sans-serif;
+        --Poppins: "Poppins", sans-serif;
+        --primary_font_color: #282938;
+        --primary_font_size: 16px;
+        --primary_font_weight: 400;
+        --primary_heading_size: 32px;
+        --primary_heading_weight: 500;
+    }
+    .footerSocial{
+        margin-bottom: 20px;
+    }
+}
