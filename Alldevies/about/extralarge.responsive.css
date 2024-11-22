@@ -10,8 +10,10 @@
         --poppins_font: "Poppins", sans-serif; 
     }
     /* ================ Extra Large Responsive =============== */
-    .picPart{
-        padding: 25px 90px 32px;
+    .memberCard{
+        
+        padding: 48px 70px;
+        
     }
     /* ================ Extra Large Responsive =============== */
 } 

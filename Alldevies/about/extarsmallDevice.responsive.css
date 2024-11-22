@@ -30,7 +30,9 @@
     .mettTop {
         font-size: 20px;
     }
-
+    .memberCard{
+        padding: 48px 190px !important;
+    }
     .teamPhoto {
        overflow: hidden;
 

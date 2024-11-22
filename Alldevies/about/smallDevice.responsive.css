@@ -11,17 +11,43 @@
     }
     /* ================ Small Device Responsive =============== */
 
-    .costomBtn {
-        margin-left: 56px;
+    .coustomNav{
+    padding-left: 150px !important;
     }
-    
+    .costomBtn {
+        padding: 10px 105px;
+        margin-left: 90px !important;
+    }
+    .memberCard{
+        padding: 48px 170px !important;
+    }
     .mettTop {
         font-size: 23px;
     }
-
+    #bannerPart {
+        padding: 29px 0px  !important;
+        
+    }
+    #goalPart {
+        padding: 23px 0px;
+       
+    }
+    #workingPart {
+        padding: 25px 0px !important;
+        
+    }
+    .bannerLeft__title {
+        font-size: 34px !important;
+        line-height: 58px;
+        
+    }
     .picPart {
         padding: 48px 120px 32px !important;
     }
-   
+    /* Footer  */
+  .callPart {
+    margin-left: 20px;
+}
+  /* Footer  */
 } 
  /* ================ Small Device Responsive =============== */  

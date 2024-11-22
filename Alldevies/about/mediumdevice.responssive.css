@@ -86,16 +86,27 @@
     .cardPart {
         padding: 5px 10px 11px 10px;
     }
-  
+    .memberCard {
+        padding: 38px 20px !important ;
+        margin-left: 0px;
+    }
 
     .cardPart__title {
         font-size: 15px;
     }
 
+    .picPart {
+       display: block;
+        ;
+    }
+    .teamPhoto{
+        margin: 0;
+        padding: 0 !important;
+     }
     #meetPart {
         padding: 10px 0px;
     }
-
+ 
     .mettTop {
         font-size: 48px;
     }
@@ -104,6 +115,7 @@
     .missionLeft__head {
         margin-bottom: -20px;
     }
+  
 
     #missionPart {
         padding: 10px 0px;
@@ -135,14 +147,25 @@
     .callPart {
         margin-left: 0px;
     }
-    .picPart {
-        padding: 48px 45px 32px !important;
-    }
    
+    
     
 
     ol, ul {
         padding-left: 0rem;
+    }
+    /* Footer  */
+    .iconItem { 
+        margin: 20px auto;
+    }
+    .customItem__link {
+        margin-top: -12px;
+    }
+    .copyright{
+     text-align: center;
+    }
+    .callPart {
+        margin-left: 0px;
     }
 
 
