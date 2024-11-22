@@ -30,16 +30,15 @@
     }
 
     .costomBtn {
-        padding: 10px 145px;
-        margin-left: 150px;
+        margin-left: 250px !important;
     }
-
-    .coustomNav {
+    /* .coustomNav {
         padding: 0px 0;
-    }
+    } */
 
     #bannerPart {
-        padding: 10px 0px;
+        padding: 20px 0px !important;
+        
     }
 
     .bannerLeft__head {
@@ -47,7 +46,8 @@
     }
 
     .bannerLeft__title {
-        margin-bottom: 5px;
+        font-size: 49px !important;
+        line-height: 56px !important;
     }
 
     .bannerLeft__para {
@@ -58,16 +58,31 @@
         padding: 10px 0px;
     }
 
+    
     .goalRight__title {
-        font-size: 32px;
+        margin-top: -5px !important;
+        font-size: 38px;
     }
+ 
 
     #followPart {
-        padding: 10px 0px;
+        padding: 21px 0px !important;
+       
     }
-
+    #missionPart {
+        padding: 29px 0px!important;
+    
+    }
+    .sectionModifed{
+        margin-top: 50px;
+    }
+    .missionLeft__title {
+        font-size: 28px !important;
+        line-height: 17px !important; 
+        margin-bottom: 9px;
+    }
     .missionRight__title {
-        font-size: 19px;
+        font-size: 28px !important;
     }
 
     .missionRight__para {
@@ -76,23 +91,26 @@
     }
 
     #workingPart {
-        padding: 5px 0px;
+        padding: 32px 0px !important;
+    
     }
-
     .topPart {
-        font-size: 25px;
+        font-size: 42px !important;
     }
 
     .cardPart {
-        padding: 5px 10px 11px 10px;
+        padding: 16px 10px 17px 10px !important;
+       
     }
     .memberCard {
-        padding: 38px 20px !important ;
+        padding: 38px 90px !important ;
         margin-left: 0px;
     }
 
     .cardPart__title {
-        font-size: 15px;
+        font-size: 27px !important;
+        line-height: 28px;
+        
     }
 
     .picPart {

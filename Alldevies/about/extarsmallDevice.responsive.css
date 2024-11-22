@@ -1,6 +1,6 @@
 /* =============== Extrasmall Device Responsive ============== */
 
-@media (max-width: 991.98px) { 
+@media (max-width: 575.98px) { 
     :root {
         --first_background_color: #1C1E53;
         --second_background_color: #F4F6FC;
@@ -13,6 +13,13 @@
 
     .navbar-nav {
         padding-right: 120px;
+    }
+    .coustomNav {
+        padding-left: 110px !important;
+    }
+    .costomBtn {
+       
+        margin-left: 60px !important;
     }
 
     .bannerLeft__title {

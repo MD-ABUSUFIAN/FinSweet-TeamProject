@@ -1,6 +1,6 @@
 /* =============== Small Device Responsive ============== */
 
-@media (max-width: 991.98px) { 
+@media (max-width: 767.98px) { 
     :root {
         --first_background_color: #1C1E53;
         --second_background_color: #F4F6FC;
@@ -11,15 +11,16 @@
     }
     /* ================ Small Device Responsive =============== */
 
-    .coustomNav{
-    padding-left: 150px !important;
+    .coustomNav {
+        padding-left: 0px !important;
     }
     .costomBtn {
-        padding: 10px 105px;
-        margin-left: 90px !important;
+       
+        margin-left: 150px !important;
     }
-    .memberCard{
-        padding: 48px 170px !important;
+    .memberCard {
+        padding: 48px 170px!important ;
+        margin-left: 0px;
     }
     .mettTop {
         font-size: 23px;
@@ -31,6 +32,10 @@
     #goalPart {
         padding: 23px 0px;
        
+    }
+    .goalRight__title {
+        margin-top: 28px !important;
+
     }
     #workingPart {
         padding: 25px 0px !important;
