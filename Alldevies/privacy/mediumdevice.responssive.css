@@ -8,21 +8,20 @@
         --poppins_font: "Poppins", sans-serif; 
     }
      /* Navbar */
-    .coustomItam{
+     .coustomItam{
         background-color: var(--Btn_yello_color);
         text-align: center;
         padding: 5px 0;
-        margin: 5px;
+        margin:5px 0px;
         border-radius: 7px;
-        
-    }
-    .coustomBtn {
+      }
+      /* nav  */
+      .coustomBtn {
         padding: 10px 125px;
-    }
-    
-    .coustomBtn {
-        margin-left: 160px;
-    }
+        /* margin-left: 160px; */
+        margin:2px auto !important;
+        font-size: 13px !important;
+      }
     /* Navbar */
     .fourth__Title {
         padding: 25px 0px;
@@ -43,6 +42,6 @@
      text-align: center;
     }
     .callPart {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
  }

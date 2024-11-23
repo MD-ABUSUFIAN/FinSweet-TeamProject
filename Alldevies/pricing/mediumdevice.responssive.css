@@ -27,23 +27,24 @@
         border: 1px dashed #FCD980;
     }
 
-    .coustomNavItem{
-        text-align: center;
-        background-color: var(--Btn_yello_color);
-        border-radius: 5px;
-        padding: 5px 0;
-        margin: 10px 0;
-        color: black;
-    }
-
     h1, h2, h3, h4, h5, h6, div, section, p, a, img, svg, button {
         padding: 10px;
     }
 
-    .costomBtn {
-        padding: 10px 145px;
-        margin-left: 150px;
-    }
+    .coustomItam{
+        background-color: var(--Btn_yello_color);
+        text-align: center;
+        padding: 5px 0 !important;
+        margin:5px 0px;
+        border-radius: 7px;
+      }
+      /* nav  */
+      .coustomBtn {
+        padding: 10px 125px !important;
+        /* margin-left: 160px; */
+        margin:2px auto !important;
+        font-size: 13px !important;
+      }
 
     .coustomNav {
         padding: 0px 0;
@@ -142,6 +143,6 @@
      text-align: center;
     }
     .callPart {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
  }

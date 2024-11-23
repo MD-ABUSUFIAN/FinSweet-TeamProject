@@ -5,6 +5,9 @@
     #privacy {
         padding: 40px 0px;
     }
+    .privacy__List {
+        font-size: 12px;
+    }
     .privacy__Ul {
         font-size: 14px;
     }

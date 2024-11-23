@@ -11,19 +11,26 @@
     }
     /* ================ Extrasmall Device Responsive =============== */
 
-    .navbar-nav {
-        padding-right: 120px;
-    }
-    .coustomNav {
-        padding-left: 110px !important;
-    }
+  
+     /* nav  */
     .costomBtn {
-       
-        margin-left: 60px !important;
+       margin: auto !important;
+        /* margin-left: 60px !important; */
     }
 
     .bannerLeft__title {
-        font-size: 30px;
+        font-size: 25px !important;
+        margin-bottom: 10px !important;
+        line-height: 30px !important;
+    }
+    .picPart__name {
+        font-size: 18px !important;
+        line-height: 25px !important;
+        margin-top: 11px;
+   
+    }
+    .picPart__title {
+        font-size: 11px !important;
     }
 
     .goalLeft__title {
@@ -35,22 +42,17 @@
     }
 
     .mettTop {
-        font-size: 20px;
+        font-size: 44px !important;
+       
     }
-    .memberCard{
-        padding: 48px 190px !important;
-    }
-    .teamPhoto {
-       overflow: hidden;
-
-    }
-    .picPart {
-        padding: 48px 150px 32px !important;
-    }
-
+   
+   
     .mailPart__title {
         font-size: 9px;
         line-height: 0px;
+    }
+    .callPart {
+        margin-left: 0px !important;
     }
 
     .mailPart__contact {

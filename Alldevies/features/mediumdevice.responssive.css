@@ -12,13 +12,14 @@
         background-color: var(--Btn_yello_color);
         text-align: center;
         padding: 5px 0;
-        margin: 5px;
+        margin:5px 0px;
         border-radius: 7px;
-        
     }
+    /* nav  */
     .coustomBtn {
         padding: 10px 125px;
-        margin-left: 160px;
+        /* margin-left: 160px; */
+        margin:2px auto !important;
     }
 
   
@@ -64,13 +65,6 @@
         line-height: 30px;
     }
 
-
-
-
-
-
-
-
    /* Footer  */
    .iconItem { 
     margin: 20px auto;
@@ -83,6 +77,6 @@
  text-align: center;
 }
 .callPart {
-    margin-left: 0px;
+    margin-left: 0px !important;
 }
 }

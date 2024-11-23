@@ -1,6 +1,9 @@
 /* =============== Medium Device Responsive ============== */
 
 @media (max-width: 991.98px) { 
+    /* h1, h2, h3, h4, h5, h6, div, section, p, a, img, svg, button {
+        padding: 10px;
+    } */
     :root {
         --first_background_color: #1C1E53;
         --second_background_color: #F4F6FC;
@@ -25,16 +28,14 @@
         color: black;
     }
 
-    h1, h2, h3, h4, h5, h6, div, section, p, a, img, svg, button {
-        padding: 10px;
-    }
+   
 
-    .costomBtn {
-        margin-left: 250px !important;
-    }
-    /* .coustomNav {
-        padding: 0px 0;
-    } */
+  /* nav  */
+  .coustomBtn {
+    padding: 10px 125px;
+    /* margin-left: 160px; */
+    margin:2px auto !important;
+}
 
     #bannerPart {
         padding: 20px 0px !important;
@@ -98,29 +99,29 @@
         font-size: 42px !important;
     }
 
-    .cardPart {
+     .cardPart {
         padding: 16px 10px 17px 10px !important;
        
     }
-    .memberCard {
+    /* .memberCard {
         padding: 38px 90px !important ;
         margin-left: 0px;
-    }
+    }  */
 
-    .cardPart__title {
+    /* .cardPart__title {
         font-size: 27px !important;
         line-height: 28px;
         
-    }
+    } */
 
     .picPart {
        display: block;
         ;
     }
-    .teamPhoto{
-        margin: 0;
+    /* .teamPhoto{
+        margin: 0 !impo;
         padding: 0 !important;
-     }
+     } */
     #meetPart {
         padding: 10px 0px;
     }
@@ -183,7 +184,7 @@
      text-align: center;
     }
     .callPart {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 
 

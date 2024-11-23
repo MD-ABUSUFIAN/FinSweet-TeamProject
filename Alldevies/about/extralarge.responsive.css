@@ -10,11 +10,22 @@
         --poppins_font: "Poppins", sans-serif; 
     }
     /* ================ Extra Large Responsive =============== */
-    .memberCard{
-        
-        padding: 48px 70px;
-        
+    /* .teamPhoto {
+        padding: 20px 71px !important;
     }
+    .memberCard {  
+        padding: 50px 41px !important;
+    } */
+
+    .iconItem {
+        margin-top: 61px;
+        padding-bottom: 30px;
+    }
+    .talkRight__title {
+        
+        line-height: 29px;
+    }
+   
     /* ================ Extra Large Responsive =============== */
 } 
 /* =============== ExtarLarge Device Responsive ============== */

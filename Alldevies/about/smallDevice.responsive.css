@@ -10,18 +10,19 @@
         --poppins_font: "Poppins", sans-serif; 
     }
     /* ================ Small Device Responsive =============== */
-
+ /* navbar  */
     .coustomNav {
         padding-left: 0px !important;
     }
     .costomBtn {
        
-        margin-left: 150px !important;
+        /* margin-left: 150px !important; */
+        margin:auto;
     }
-    .memberCard {
+    /* .memberCard {
         padding: 48px 170px!important ;
         margin-left: 0px;
-    }
+    } */
     .mettTop {
         font-size: 23px;
     }
@@ -46,13 +47,11 @@
         line-height: 58px;
         
     }
-    .picPart {
-        padding: 48px 120px 32px !important;
-    }
+    
     /* Footer  */
-  .callPart {
+  /* .callPart {
     margin-left: 20px;
-}
+} */
   /* Footer  */
 } 
  /* ================ Small Device Responsive =============== */  
