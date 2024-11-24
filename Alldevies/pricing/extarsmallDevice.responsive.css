@@ -3,5 +3,23 @@
         padding: 0 !important;
     
     }
-  
+    ul,li{
+        padding-left: 0px !important;
+    }
+    .customItem__link{
+       font-size: 12px;
+    }
+    .coustomBtn {
+        font-size: 12px !important;  
+        padding: 8px 50px !important;
+    }
+    .PricingHead__summary {
+        
+        font-size: 14px !important;
+         
+    }
+    .PricingHead__title {
+        font-size: 36px !important;
+        line-height: 64px;
+    }
 }

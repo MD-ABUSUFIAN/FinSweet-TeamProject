@@ -562,8 +562,7 @@ body {
 
 .touchBtn{
     color: #FFF;
-    margin-left: 35%;
-    margin-top: 25px;
+     text-align: center;
 }
 
 [class="fa-light fa-arrow-right-long"]{

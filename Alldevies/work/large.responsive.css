@@ -1,3 +1,11 @@
 @media (max-width: 1199.98px) { 
-    
+    #ourWork {
+        padding-top: 40px;
+    }
+    #something {
+        padding: 63px 0px;
+    }
+    .something__Title {
+        font-size: 40px;
+    }
  }

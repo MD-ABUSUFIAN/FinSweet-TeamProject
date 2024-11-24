@@ -39,6 +39,10 @@
     .clientHeading__para {
         margin-bottom: 25px;
     }
+    #clientPart {
+        padding: 54px 0px !important;
+       
+    }
 
     #faqPart {
         padding: 10px 0;
@@ -68,20 +72,23 @@
 
     .sandBtn {
         padding: 6px 90px;
-    }
-
-    .sandBtn {
         margin-top: 17px;
     }
 
+   
+    #websites {
+        padding: 27px 0 !important;
+     
+    }
     .websitesRight {
         height: 100%;
     }
 
     .touchBtn {
-        margin-left: 27%;
+        /* margin-left: 27%; */
         margin-top: 3px;
     }
+    
 
     #cardPard {
         padding: 10px 0;

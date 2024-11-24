@@ -7,9 +7,17 @@
     .yellowClr {
         margin-left: 25px;
     }
-}
-.coustomBtn {
+
+/* .coustomBtn {
     margin: 0 0 20px 100px;
     
+} */
+.ourWorkContent__Title {
+    font-size: 32px;
+    padding-top: 4px;
+}
+ol, ul {
+    padding-left: 0rem !important;
+}
 }
 /* =============== ExtaramallDevice Responsive ============== */ 

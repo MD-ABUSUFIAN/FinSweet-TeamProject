@@ -9,8 +9,8 @@
     }
 
     .read__Title {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px !important;
+        line-height: 20px !important;
     }
     .read__Name {
         font-size: 10px;
@@ -19,5 +19,15 @@
 
     .loremContain__Title {
         font-size: 17px;
+    }
+    .copyright { 
+        line-height: 0px !important;
+    }
+    .customItem__link {
+        line-height: 15px !important;
+        margin: 10px 0px !important;
+    }
+    .copyItem{
+        padding-bottom: 10px !important;
     }
 }

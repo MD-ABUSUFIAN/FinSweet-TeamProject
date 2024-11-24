@@ -47,7 +47,11 @@
         line-height: 58px;
         
     }
-    
+    .cardPart {
+       
+        margin-bottom:10px !important;
+       
+    }
     /* Footer  */
   /* .callPart {
     margin-left: 20px;

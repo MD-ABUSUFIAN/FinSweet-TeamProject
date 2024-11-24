@@ -24,17 +24,16 @@
         background-color: var(--Btn_yello_color);
         border-radius: 5px;
         padding: 5px 0;
-        margin: 10px 0;
+        margin: 5px 0 !important;
         color: black;
     }
 
    
 
   /* nav  */
-  .coustomBtn {
-    padding: 10px 125px;
-    /* margin-left: 160px; */
-    margin:2px auto !important;
+  .costomBtn {
+    padding: 10px 50px !important;
+    margin:auto !important;  
 }
 
     #bannerPart {
@@ -56,9 +55,9 @@
     }
 
     #goalPart {
-        padding: 10px 0px;
+        padding: 30px 0px !important;
     }
-
+  
     
     .goalRight__title {
         margin-top: -5px !important;

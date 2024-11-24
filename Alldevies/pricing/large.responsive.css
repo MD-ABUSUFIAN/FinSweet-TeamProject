@@ -1,9 +1,9 @@
 /* =============== ExtarLarge Device Responsive ============== */
 
 @media (max-width: 1199.98px) {
-    .pricingItem {
+    /* .pricingItem {
         height: 697px;
-    }
+    } */
 
     .pricingItem__price {
         font-size: 28px;
@@ -33,9 +33,9 @@
         padding: 10px 39px;
         /* width: 0px; */
     }
-    .pricingItem__btn-Modify {
+    /* .pricingItem__btn-Modify {
         margin-top: 53px;
-    }
+    } */
     /* footer part */
     .footerContact__emailtitle {
         font-size: 16px;

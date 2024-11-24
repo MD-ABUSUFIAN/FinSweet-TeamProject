@@ -49,8 +49,12 @@
         margin-bottom: 20px;
     }
 
+  
     .websitesRight {
-        height: 114%;
+        background-color: #1C1E53;
+        height: 100%;
+        margin: auto !important;
+        padding: 50px !important;
     }
     .backPart__title {
         width: 100%;

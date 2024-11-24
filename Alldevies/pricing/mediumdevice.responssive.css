@@ -28,7 +28,7 @@
     }
 
     h1, h2, h3, h4, h5, h6, div, section, p, a, img, svg, button {
-        padding: 10px;
+        padding: 7px;
     }
 
     .coustomItam{
@@ -45,6 +45,10 @@
         margin:2px auto !important;
         font-size: 13px !important;
       }
+      .coustomNavItem {
+        padding: 10px 0 !important;
+        margin: -10px 0 !important;
+    }
 
     .coustomNav {
         padding: 0px 0;
@@ -82,9 +86,7 @@
         font-size: 39px;
     }
     .pricingItem {
-       
-        padding: 0;
-        
+        padding: 0 !important;
     }
     .pricingItem__price {
         font-size: 39px;
@@ -96,21 +98,15 @@
     .pricingItem__summary {
         font-size: 11px;
     }
-    .pricingItem__list {
-        margin-top: 30px !important;
-    }
-    .pricingItem-modify {
-        margin-top: 5px !important;
-        
-    }
+ 
     .pricingItem__btn {
         font-size: 15px;
         padding: 10px 39px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
-    .pricingItem__btn-Modify{
+    /* .pricingItem__btn-Modify{
         margin-top: 33px;
-    }
+    } */
     .QuestionsLeft_link {
         font-size: 18px;
         line-height: 21px;
@@ -125,14 +121,14 @@
   .copyright {
     font-size: 20px;
     line-height: 0px;
-}
-.talkRight__para {
-    font-size: 16px;
-}
-.imageleft__para {
+    }
+    .talkRight__para {
+        font-size: 16px;
+    }
+    .imageleft__para {
     
     margin-top: 11px;
-}
+    }
     .iconItem {
         margin: 0px auto;
     }
