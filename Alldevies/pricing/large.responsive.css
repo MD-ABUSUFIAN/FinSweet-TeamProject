@@ -4,7 +4,9 @@
     /* .pricingItem {
         height: 697px;
     } */
-
+    #Pricing {
+        padding: 10px 0 0 !important;
+    }
     .pricingItem__price {
         font-size: 28px;
     }
@@ -33,9 +35,10 @@
         padding: 10px 39px;
         /* width: 0px; */
     }
-    /* .pricingItem__btn-Modify {
-        margin-top: 53px;
-    } */
+    .PricingHead__title {
+        font-size: 36px;
+        line-height: 53px; 
+    }
     /* footer part */
     .footerContact__emailtitle {
         font-size: 16px;
